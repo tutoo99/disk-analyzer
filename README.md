@@ -20,17 +20,19 @@ npm link
 ## 使用
 
 ```bash
-# 基本报告
+# 方式一：全局链接后直接使用（推荐日常使用）
+npm link
 disk-analyzer
-
-# 显示详细子项
 disk-analyzer --detail
-
-# 只显示可安全清理项
 disk-analyzer --safe-only
-
-# JSON 输出
 disk-analyzer --json
+
+# 方式二：不安装，直接运行
+node index.js
+node index.js --detail
+
+# 方式三：npx 临时运行
+npx disk-analyzer
 ```
 
 ## 示例输出
