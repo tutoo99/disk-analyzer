@@ -1,0 +1,12 @@
+{
+  "name": "disk-analyzer",
+  "version": "1.0.0",
+  "description": "macOS 磁盘空间分析与清理建议工具",
+  "bin": {
+    "disk-analyzer": "./index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
